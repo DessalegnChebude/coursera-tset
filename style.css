@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: antiquewhite;
+}
+
+.nav-bar {
+  display: block;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  background-color: black;
+  padding: 15px;
+}
+ul li {
+  display: inline;
+  padding-right: 100px;
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
